@@ -37,6 +37,11 @@ wifi:
     ssid: "HunterRoam586"
     password: !secret HUNTER_ap_wifi_key
 
+status_led:
+  pin:
+    number: D4
+    inverted: true
+
 #captive_portal:
 
 logger:
